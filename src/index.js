@@ -1,15 +1,10 @@
 import _ from 'lodash';
+import navBar from './components/navbar';
+import portrait from './components/portrait';
+import resume from './components/resume';
 
-function component() {
-    const element = document.createElement('div');
+const main = document.querySelector('#content');
 
-    // Lodash, currently included via a script, is required for this line to work
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-    console.log("added changes to webpack")
-
-    return element;
-}
-
-document.body.appendChild(component());
+main.appendChild(navBar);
+main.appendChild(portrait);
+main.appendChild(resume);
