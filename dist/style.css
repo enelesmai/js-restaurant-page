@@ -56,3 +56,53 @@ body {
 p.description {
     text-align: center;
 }
+
+
+/*menu styles*/
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.menu-container>.card {
+    padding: 15px;
+    width: 24%;
+    box-sizing: border-box;
+}
+
+.card>img {
+    height: 240px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.sizing {
+    box-sizing: border-box;
+}
+
+.name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-bottom: 1px #ccc solid;
+}
+
+.name-price>h4 {
+    color: orangered;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-self: flex-end;
+    top: -6px;
+    position: relative;
+}
+
+.menu-item>p {
+    margin-top: 10px;
+}
