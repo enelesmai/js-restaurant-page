@@ -1,108 +1,105 @@
 body {
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkblue;
-    top: 0;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: darkblue;
+  top: 0;
 }
 
 .nav-header {
-    width: 100%;
-    background-color: orange;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .brand-name {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: white;
-    align-self: center;
-    padding: 0 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  align-self: center;
+  padding: 0 10px;
 }
 
 .nav {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-item {
-    list-style: none;
-    padding: 10px;
+  list-style: none;
+  padding: 10px;
 }
 
 .nav-item a {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-item a:hover {
-    color: orangered;
+  color: orangered;
 }
 
 .portrait {
-    display: flex;
-    align-items: center;
-    margin: 20px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
 }
 
-.portrait>img {
-    position: relative;
-    margin: 0 auto;
-    height: 600px;
+.portrait > img {
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
 }
 
 p.description {
-    text-align: center;
+  text-align: center;
 }
-
-
-/*menu styles*/
 
 .menu-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
 }
 
-.menu-container>.card {
-    padding: 15px;
-    width: 24%;
-    box-sizing: border-box;
+.menu-container > .card {
+  padding: 15px;
+  width: 24%;
+  box-sizing: border-box;
 }
 
-.card>img {
-    height: 240px;
-    background-size: cover;
-    margin: 0 auto;
+.card > img {
+  height: 240px;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .sizing {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .name-price {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 15px;
-    border-bottom: 1px #ccc solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  border-bottom: 1px #ccc solid;
 }
 
-.name-price>h4 {
-    color: orangered;
+.name-price > h4 {
+  color: orangered;
 }
 
 .price {
-    font-size: 1.5em;
-    font-weight: bold;
-    align-self: flex-end;
-    top: -6px;
-    position: relative;
+  font-size: 1.5em;
+  font-weight: bold;
+  align-self: flex-end;
+  top: -6px;
+  position: relative;
 }
 
-.menu-item>p {
-    margin-top: 10px;
+.menu-item > p {
+  margin-top: 10px;
 }
