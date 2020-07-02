@@ -1,14 +1,14 @@
 function createInputForm(type, name) {
-    let inputDiv = document.createElement('div');
-    inputDiv.classList = 'form-group w-75';
-    let input = document.createElement('input');
-    input.setAttribute('type', type);
-    input.setAttribute('placeholder', name);
-    input.setAttribute('name', name);
-    input.setAttribute('required', true);
-    input.classList = 'form-control';
-    inputDiv.appendChild(input);
-    return inputDiv;
+  const inputDiv = document.createElement('div');
+  inputDiv.classList = 'form-group w-75';
+  const input = document.createElement('input');
+  input.setAttribute('type', type);
+  input.setAttribute('placeholder', name);
+  input.setAttribute('name', name);
+  input.setAttribute('required', true);
+  input.classList = 'form-control';
+  inputDiv.appendChild(input);
+  return inputDiv;
 }
 
 const contactTab = document.createElement('section');
