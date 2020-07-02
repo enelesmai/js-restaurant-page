@@ -3,6 +3,9 @@ import navBar from './components/navbar';
 import homeTab from './components/home-tab';
 import menuTab from './components/menu-tab';
 import contactTab from './components/contact-tab';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
 
 function showTab(id) {
     switch (id) {
