@@ -1,56 +1,71 @@
 # js-restaurant-page
 The main goal of this project is to show the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/5160907/86386967-18f3db80-bc58-11ea-92e7-201ea6226a18.png)
 
-Additional description about the project and its features.
+![image](https://user-images.githubusercontent.com/5160907/86387063-3e80e500-bc58-11ea-827d-6c8be055e215.png)
+
+js-restaurant-page is a simple javascript application that shows three different sections which can be selected by the navigation bar. 
+Every DOM element on the page is created from scratch with javascript and managed by webpack modules.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Javascript
+- Bootstrap
+- Webpack
+- Webpack modules
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/enelesmai/js-restaurant-page/feat-restaurant-using-webpack/dist/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+Get a local copy using `git clone`
 
 ### Prerequisites
+* Webpack
+* NPM
 
 ### Setup
 
-### Install
+**Install NPM**
+
+    sudo apt update
+    
+    sudo apt install npm
+
+**Install Webpack**
+
+To install the latest release run one of the following command:
+
+    npm install --save-dev webpack
+
+If you're using webpack v4 or later, you'll also need to install the CLI.
+
+    npm install --save-dev webpack-cli
+
+**Start the project**
+
+Before seeing the project on the navigator you have to build the dependencies using web pack. Just run the following command:
+
+    npm run build
+
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
+You can navigate over the page using the nav bar.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Xóchitl Selene Flores Pérez**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@enelesmai](https://github.com/enelesmai)
+- Twitter: [@enelesmai](https://twitter.com/enelesmai)
+- Linkedin: [xochitlselene](https://linkedin.com/in/xochitlselene)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
