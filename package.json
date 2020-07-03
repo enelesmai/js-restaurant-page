@@ -1,0 +1,47 @@
+{
+    "name": "js-restaurant-page",
+    "description": "Restaurant Page",
+    "version": "0.1.0",
+    "homepage": "https://github.com/enelesmai/js-restaurant-page",
+    "author": "@enelesmai (enelesmai.github.io)",
+    "repository": "enelesmai/js-restaurant-page",
+    "peivate": true,
+    "bugs": {
+        "url": "https://github.com/enelesmai/js-restaurant-page/issues"
+    },
+    "license": "MIT",
+    "files": [
+        "README.md"
+    ],
+    "engines": {
+        "node": ">=4"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "keywords": [
+        "js",
+        "page",
+        "restaurant"
+    ],
+    "devDependencies": {
+        "css-loader": "^3.6.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "file-loader": "^6.0.0",
+        "style-loader": "^1.2.1",
+        "stylelint": "^13.3.3",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-scss": "^3.17.2",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1",
+        "lodash": "^4.17.15",
+        "popper.js": "^1.16.1"
+    }
+}
